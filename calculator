@@ -1,0 +1,11 @@
+
+print('weekly overwatch playtimne tracker')
+
+
+hours = int(input ('how many hours a day do you play overwatch? '))
+
+if(hours * 7 <=  20):
+    print(f'not bad at all, {hours * 7} hours a week')
+
+if(hours *7 >=  20):
+    print(f'Wow thats insane you play Overwatch for {hours * 7} hours a week')
